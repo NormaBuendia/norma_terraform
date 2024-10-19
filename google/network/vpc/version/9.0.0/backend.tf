@@ -1,7 +1,7 @@
 # Backend configuration for Google Cloud
 terraform {
   backend "gcs" {
-    bucket  = "terraform-johanops"
+    bucket  = "terraform-norma"
     prefix  = "network/vpc"
   }
 }
